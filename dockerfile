@@ -1,9 +1,9 @@
 # Use Python base image
 FROM python:3.9
 
-WORKDIR /app
+WORKDIR /jenkinselevatelabsassessmentday2
 
-COPY . /app
+COPY . /jenkinselevatelabsassessmentday2
 
 RUN pip install flask
 
